@@ -96,7 +96,7 @@ input[type=email] {
   border: 1.5px solid lightgray;
   border-radius: 4px;
   outline-color: rgb(38, 102, 240);
-  padding: 0 11px;
+  padding: 0 14px;
   font-size: 16px;
 }
 
@@ -104,18 +104,18 @@ label {
   position: absolute;
   top: 15px;
   left: 15px;
-  padding: 0;
+  padding: 0 5px;
   font-size: 16px;
   color: rgb(143, 142, 142);
-  transition: top .5s;
+  transition: top 0.15s, font-size 0.15s;
   pointer-events: none;
 }
 
 input[type=email]:focus+label {
   top: -9px;
+  font-size: 13px;
   background-color: white;
   padding: 0 5px;
-  font-size: 13px;
   color: rgb(38, 102, 240);
 }
 
